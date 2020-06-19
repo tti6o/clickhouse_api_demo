@@ -86,7 +86,7 @@ func GetUsers(f *excelize.File ) {
 
 //获取记录数>1000的用户ID列表（从高到低排序）
 func GetHighUsers(f *excelize.File) {
-	url := "http://47.56.239.148:8000/high_users"
+	url := "http://47.56.239.148:8000/high_user_ids"
 	userResp := GetHighUserResp{}
 	ret, _, errs := gorequest.New().
 		Timeout(time.Second * 5).

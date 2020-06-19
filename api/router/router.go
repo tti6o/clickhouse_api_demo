@@ -10,7 +10,7 @@ func InitRouter() *gin.Engine {
 
 	router.GET("/users", Users)
 
-	router.GET("/high_users", GetHighUsers)
+	router.GET("/high_user_ids", GetHighUsers)
 
 	return router
 }
