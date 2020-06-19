@@ -1,11 +1,9 @@
 package main
 
 import (
-	//"flag"
 	"fmt"
 	"github.com/tti6o/clickhouse_api_demo/api/router"
 	"github.com/tti6o/clickhouse_api_demo/database"
-	//"github.com/tti6o/clickhouse_api_demo/config"
 )
 
 func main() {
